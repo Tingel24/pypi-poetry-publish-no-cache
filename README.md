@@ -1,3 +1,4 @@
+FORK: Remove the poetry cache option to not be required to have the poetry.lock file checked into the repository
 # pypi-poetry-publish
 
 Opinionated GitHub action to fully automate publishing packages to PyPI - using Poetry and GitHub releases.
