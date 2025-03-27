@@ -73,7 +73,6 @@ runs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ inputs.PYTHON_VERSION }}
-        cache: poetry
         check-latest: true
 
     - name: Set GitHub Tag as Package Version
